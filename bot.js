@@ -1,4 +1,4 @@
-const token = "MTA4NDI5NTcxOTI5NDM1NzU1NA.Gds456.lxg5FZXM5v0NPDY77v8GDUJQEM2YssiPg34qhI";
+const token = "";
 //cooldown = {};
 const { REST, Routes, Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
