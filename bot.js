@@ -1,4 +1,4 @@
-const token = "";
+const token = "MTA4NDI5NTcxOTI5NDM1NzU1NA.Gds456.lxg5FZXM5v0NPDY77v8GDUJQEM2YssiPg34qhI";
 //cooldown = {};
 const { REST, Routes, Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -24,7 +24,7 @@ const rest = new REST({ version: '10' }).setToken(token);
   try {
     console.log('Started refreshing application (/) commands.');
 
-    await rest.put(Routes.applicationCommands(""), { body: commands });
+    await rest.put(Routes.applicationCommands("1084295719294357554"), { body: commands });
 
     console.log('Successfully reloaded application (/) commands.');
   } catch (error) {
