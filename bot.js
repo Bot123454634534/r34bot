@@ -1,4 +1,4 @@
-const token = "";
+const token = "MTAzOTU2MDIyMDA0MjU5NjQ0Mg.GwQjH7.beT-QRWjIGcLtlxKctN15o_a-2rCPBk9dGAx-0";
 //cooldown = {};
 const { REST, Routes, Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -46,7 +46,7 @@ client.on('interactionCreate', async interaction => {
       title: 'Fetching...',
       timestamp: new Date(),
       footer: {
-        text: 'Bot by Cedric#0591',
+        text: 'Discowdo',
       },
     };
 
@@ -74,13 +74,13 @@ client.on('interactionCreate', async interaction => {
     
     exampleEmbed = {
       color: 0x0099ff,
-      title: 'Rule34 Random Content:',
+      title: 'Rule34~:',
       image: {
         url: img,
       },
       timestamp: new Date(),
       footer: {
-        text: 'Bot by Cedric#0591',
+        text: 'Discowdo',
       },
     };
 
@@ -95,7 +95,7 @@ client.on('interactionCreate', async interaction => {
       description: 'If an image never show up then try searching differently.',
       timestamp: new Date(),
       footer: {
-        text: 'Bot by Cedric#0591',
+        text: 'Discowdo',
       },
     };
 
@@ -145,7 +145,7 @@ client.on('interactionCreate', async interaction => {
       },
       timestamp: new Date(),
       footer: {
-        text: 'Bot by Cedric#0591',
+        text: 'Discowdo',
       },
     };
 
